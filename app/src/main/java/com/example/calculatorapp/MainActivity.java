@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 Float secondNumberInFloat = Float.parseFloat(secondNumber);
                 Float resultInFloat = firsNumberInFloat + secondNumberInFloat;
                 String resultInString = Float.toString(resultInFloat);
+                resultView.setText(resultInString);
             }
         });
     }
