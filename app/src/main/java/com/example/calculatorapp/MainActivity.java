@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 Float firsNumberInFloat = Float.parseFloat(firstNumber);
                 Float secondNumberInFloat = Float.parseFloat(secondNumber);
                 Float resultInFloat = firsNumberInFloat + secondNumberInFloat;
+                String resultInString = Float.toString(resultInFloat);
             }
         });
     }
