@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CalculatorApp</string>
+    <string name="hintForFirstEditText">Enter the first number.</string>
 </resources>
