@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String firstNumber = editText1.getText().toString();
                 String secondNumber = editText2.getText().toString();
+                Float firsNumberInFloat = Float.parseFloat(firstNumber);
             }
         });
     }
