@@ -3,6 +3,7 @@ package com.example.calculatorapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -24,5 +25,11 @@ public class MainActivity extends AppCompatActivity {
         div = (Button)findViewById(R.id.button4);
         resultView = (TextView)findViewById(R.id.textView);
 
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
