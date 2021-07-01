@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 String secondNumber = editText2.getText().toString();
                 Float firsNumberInFloat = Float.parseFloat(firstNumber);
                 Float secondNumberInFloat = Float.parseFloat(secondNumber);
+                Float resultInFloat = firsNumberInFloat + secondNumberInFloat;
             }
         });
     }
