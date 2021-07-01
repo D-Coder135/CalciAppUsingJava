@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String firstNumber = editText1.getText().toString();
             }
         });
     }
