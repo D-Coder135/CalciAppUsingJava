@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String firstNumber = editText1.getText().toString();
+                String secondNumber = editText2.getText().toString();
             }
         });
     }
