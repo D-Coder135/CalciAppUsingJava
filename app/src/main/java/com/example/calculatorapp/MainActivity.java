@@ -22,5 +22,6 @@ public class MainActivity extends AppCompatActivity {
         sub = (Button)findViewById(R.id.button2);
         mul = (Button)findViewById(R.id.button3);
         div = (Button)findViewById(R.id.button4);
+        textView = (TextView)findViewById(R.id.textView);
     }
 }
