@@ -53,5 +53,19 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
             }
         });
+
+        mul.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String firstNumber = editText1.getText().toString();
+                String secondNumber = editText2.getText().toString();
+                Float firsNumberInFloat = Float.parseFloat(firstNumber);
+                Float secondNumberInFloat = Float.parseFloat(secondNumber);
+                Float resultInFloat = firsNumberInFloat * secondNumberInFloat;
+                String resultInString = Float.toString(resultInFloat);
+                resultView.setText(resultInString);
+                Toast.makeText(MainActivity.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
