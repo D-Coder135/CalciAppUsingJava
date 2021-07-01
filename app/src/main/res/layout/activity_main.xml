@@ -8,11 +8,10 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="405dp"
         android:layout_height="47dp"
         android:ems="10"
+        android:hint="Enter the first number."
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
