@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 String secondNumber = editText2.getText().toString();
                 Float firsNumberInFloat = Float.parseFloat(firstNumber);
                 Float secondNumberInFloat = Float.parseFloat(secondNumber);
-                Float resultInFloat = firsNumberInFloat + secondNumberInFloat;
+                float resultInFloat = firsNumberInFloat + secondNumberInFloat;
                 String resultInString = Float.toString(resultInFloat);
                 resultView.setText(resultInString);
                 Toast.makeText(MainActivity.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 String secondNumber = editText2.getText().toString();
                 Float firsNumberInFloat = Float.parseFloat(firstNumber);
                 Float secondNumberInFloat = Float.parseFloat(secondNumber);
-                Float resultInFloat = firsNumberInFloat - secondNumberInFloat;
+                float resultInFloat = firsNumberInFloat - secondNumberInFloat;
                 String resultInString = Float.toString(resultInFloat);
                 resultView.setText(resultInString);
                 Toast.makeText(MainActivity.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 String secondNumber = editText2.getText().toString();
                 Float firsNumberInFloat = Float.parseFloat(firstNumber);
                 Float secondNumberInFloat = Float.parseFloat(secondNumber);
-                Float resultInFloat = firsNumberInFloat * secondNumberInFloat;
+                float resultInFloat = firsNumberInFloat * secondNumberInFloat;
                 String resultInString = Float.toString(resultInFloat);
                 resultView.setText(resultInString);
                 Toast.makeText(MainActivity.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 String secondNumber = editText2.getText().toString();
                 Float firsNumberInFloat = Float.parseFloat(firstNumber);
                 Float secondNumberInFloat = Float.parseFloat(secondNumber);
-                Float resultInFloat = firsNumberInFloat / secondNumberInFloat;
+                float resultInFloat = firsNumberInFloat / secondNumberInFloat;
                 String resultInString = Float.toString(resultInFloat);
                 resultView.setText(resultInString);
                 Toast.makeText(MainActivity.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
