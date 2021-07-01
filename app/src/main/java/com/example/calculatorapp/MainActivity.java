@@ -10,7 +10,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     EditText editText1, editText2;
     Button add, sub, mul, div;
-    TextView textView;
+    TextView resultView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         sub = (Button)findViewById(R.id.button2);
         mul = (Button)findViewById(R.id.button3);
         div = (Button)findViewById(R.id.button4);
-        textView = (TextView)findViewById(R.id.textView);
+        resultView = (TextView)findViewById(R.id.textView);
+
     }
 }
