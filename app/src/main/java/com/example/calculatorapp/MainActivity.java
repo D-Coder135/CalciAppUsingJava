@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText editText1, editText2;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 Float resultInFloat = firsNumberInFloat + secondNumberInFloat;
                 String resultInString = Float.toString(resultInFloat);
                 resultView.setText(resultInString);
+                Toast.makeText(MainActivity.this, "The result is = " + resultInString, Toast.LENGTH_SHORT).show();
             }
         });
     }
